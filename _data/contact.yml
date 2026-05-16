@@ -3,12 +3,24 @@
 - type: github
   icon: "fab fa-github"
 
+- type: linkedin
+  icon: 'fab fa-linkedin'
+  url: 'https://www.linkedin.com/in/t01x/'
+
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
+
+- type: discord
+  icon: 'fab fa-discord'
+  url: 'https://discord.com/users/599999300457594889'
+
+- type: hackthebox
+  icon: 'fas fa-cube'
+  url: 'https://app.hackthebox.com/users/3172381'
 
 - type: rss
   icon: "fas fa-rss"

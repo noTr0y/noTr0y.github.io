@@ -22,6 +22,10 @@
   icon: 'fas fa-cube'
   url: 'https://app.hackthebox.com/users/3172381'
 
+- type: medium
+  icon: 'fab fa-medium'
+  url: 'https://medium.com/@tr0y'
+
 # - type: rss
 #   icon: "fas fa-rss"
 #   noblank: true

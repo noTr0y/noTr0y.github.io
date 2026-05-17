@@ -1,8 +1,8 @@
 ---
 title: "Notebook Converter Pro - HTB Web Challenge"
 date: 2026-05-14 12:00:00 +0200
-categories: [CTF, HackTheBox]
-tags: [web, path-traversal, rce, python, htb]
+categories: [Challenges, web]
+tags: [web, Challenges, HackTheBox ]
 image:
   path: /assets/img/posts/notebook/banner.png
 ---

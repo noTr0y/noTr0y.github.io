@@ -1,6 +1,6 @@
 ---
 title: "Secure Notes - HTB Web Challenge"
-date: 2026-07-25 12:00:00 +0200
+date: 2026-07-24 12:00:00 +0200
 categories: [Challenges, web]
 tags: [web, Challenges, HackTheBox]
 image:

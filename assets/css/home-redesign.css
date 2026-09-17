@@ -29,7 +29,7 @@ body.menu-open { overflow: hidden; }
   transform: translateY(40px);
 }
 
-#about, #certs, #expertise, #work, #contact {
+#about, #certs, #expertise, #work {
   scroll-margin-top: 100px;
 }
 

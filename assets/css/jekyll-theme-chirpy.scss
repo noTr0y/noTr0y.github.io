@@ -1,0 +1,98 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+:root[data-bs-theme="dark"] {
+  /* Backgrounds, shifted to the landing page's near-black */
+  --main-bg: #0d0d0d;
+  --mask-bg: #1a1a1a;
+  --main-border-color: #1f1f1f;
+  --button-bg: #141414;
+  --btn-border-color: #2a2a2a;
+  --card-bg: #131313;
+  --card-header-bg: #161616;
+  --card-hover-bg: rgba(220, 20, 60, 0.08);
+  --card-shadow: rgb(0 0 0 / 60%) 0 6px 18px 0, rgb(220 20 60 / 10%) 0 0 0 1px;
+  --menu-bg: #0f0f0f;
+  --menu-border-color: rgba(220, 20, 60, 0.2);
+  --sidebar-bg: #0a0a0a;
+  --sidebar-border-color: #1a1a1a;
+  --sidebar-hover-bg: #181818;
+  --sidebar-btn-bg: #141414;
+  --topbar-bg: rgba(13, 13, 13, 0.75);
+  --search-border-color: #2a2a2a;
+  --search-tag-bg: #171717;
+  --tb-odd-bg: #141414;
+  --tb-even-bg: #0d0d0d;
+  --language-border-color: #202020;
+  --highlight-bg-color: #0f0f0f;
+  --input-focus-border-color: #dc143c;
+
+  /* Text, matches landing page tone */
+  --text-color: #f2f2f2;
+  --text-muted-color: #8a8a8a;
+  --text-muted-highlight-color: #b0b0b0;
+  --heading-color: #f2f2f2;
+  --label-color: #a0a0a0;
+  --site-title-color: #f2f2f2;
+  --site-subtitle-color: #8a8a8a;
+  --sidebar-active-color: #dc143c;
+  --sidebar-muted-color: #8a8a8a;
+  --post-list-text-color: #d0d0d0;
+
+  /* Accent, identical crimson used everywhere on the homepage */
+  --link-color: #dc143c;
+  --link-underline-color: #a10f2e;
+  --checkbox-checked-color: #dc143c;
+  --btn-backtotop-color: #dc143c;
+  --btn-backtotop-border-color: #dc143c;
+  --categories-hover-bg: rgba(220, 20, 60, 0.18);
+  --categories-icon-hover-color: #dc143c;
+  --categories-border: rgba(220, 20, 60, 0.25);
+  --tag-hover: rgba(220, 20, 60, 0.18);
+  --tag-border: rgba(220, 20, 60, 0.3);
+  --toc-highlight: #dc143c;
+  --toc-popup-border-color: rgba(220, 20, 60, 0.3);
+  --dash-color: #dc143c;
+  --footnote-target-bg: #dc143c;
+
+  --avatar-border-color: rgba(220, 20, 60, 0.4);
+  --search-icon-color: #dc143c;
+  --menu-active-color: rgba(220, 20, 60, 0.9);
+  --menu-highlight-bg: rgba(220, 20, 60, 0.12);
+  --btn-paginator-hover-color: #dc143c;
+  --btn-share-hover-color: #dc143c;
+  --filepath-text-color: #b0b0b0;
+}
+
+a {
+  transition: color 0.25s ease, opacity 0.25s ease;
+}
+.post-tag.btn-outline-primary {
+  --bs-btn-color: #dc143c;
+  --bs-btn-border-color: #dc143c;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #dc143c;
+  --bs-btn-hover-border-color: #dc143c;
+  --bs-btn-active-bg: #dc143c;
+  --bs-btn-active-border-color: #dc143c;
+  --bs-btn-active-color: #fff;
+}
+
+.btn.btn-outline-primary:not(.disabled):hover {
+  border-color: #dc143c !important;
+}
+#sidebar ul li.nav-item a.nav-link:hover {
+  color: #dc143c !important;
+}

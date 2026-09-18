@@ -379,7 +379,7 @@ layout: null
       {% endif %}
       <div class="work-card-body">
         <span class="work-card-cat">{{ post.categories | first }}</span>
-        <h3 class="work-card-title">{{ post.title }}</h3>
+        <p class="work-card-title">{{ post.title }}</p>
         <p class="work-card-excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
         <div class="work-card-meta">
           <span class="work-card-date">{{ post.date | date: "%b %d, %Y" }}</span>
